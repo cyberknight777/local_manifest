@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Device trees -->
+    <project name="cyberknight777/device_oneplus_hotdog" path="device/oneplus/hotdog" remote="github" revision="twelve" />
+    <project name="cyberknight777/device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="github" revision="twelve" />
+    
+    <!-- Vendor trees -->
+    <project name="YAAP/vendor_oneplus_hotdog" path="vendor/oneplus/hotdog" remote="github" revision="twelve" />
+    <project name="YAAP/vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" remote="github" revision="twelve" />
+
+    <!-- Kernel tree -->
+    <project name="cyberknight777/dragonheart_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="staging" clone-depth="1" />
+</manifest>
