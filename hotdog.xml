@@ -10,4 +10,7 @@
 
     <!-- Kernel tree -->
     <project name="cyberknight777/dragonheart_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="staging" clone-depth="1" />
+
+    <!-- Miscellaneous trees -->
+    <project name="YAAP/hardware_oneplus" path="hardware/oneplus" remote="github" revision="twelve" />
 </manifest>
