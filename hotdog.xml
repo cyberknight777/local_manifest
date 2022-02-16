@@ -11,6 +11,10 @@
     <!-- Kernel tree -->
     <project name="cyberknight777/dragonheart_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="staging" clone-depth="1" />
 
+    <!-- Toolchains -->
+    <project name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" path="prebuilts/gcc/linux-x86/aarch64/arm64-gcc" remote="github" revision="12.0.0" clone-depth="1" />
+    <project name="StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi" path="prebuilts/gcc/linux-x86/arm/arm-eabi" remote="github" revision="12.0.0" clone-depth="1"  />
+
     <!-- Miscellaneous trees -->
     <project name="YAAP/hardware_oneplus" path="hardware/oneplus" remote="github" revision="twelve" />
 </manifest>
