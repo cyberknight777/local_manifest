@@ -24,4 +24,9 @@
     <project path="hardware/qcom-caf/sm8150/audio" name="YAAP/hardware_qcom-caf_sm8150_audio" remote="github" revision="twelve" />
     <project path="hardware/qcom-caf/sm8150/display" name="YAAP/hardware_qcom-caf_sm8150_display" remote="github" revision="twelve"  />
     <project path="hardware/qcom-caf/sm8150/media" name="YAAP/hardware_qcom-caf_sm8150_media" remote="github" revision="twelve"  />
+
+    <!-- Lineage OS settings resources -->
+    <remove-project name="packages_resources_devicesettings" />
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-19.0" />
+
 </manifest>
